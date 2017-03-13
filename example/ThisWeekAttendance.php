@@ -6,6 +6,14 @@ use Anomaly\ChartWidgetExtension\ChartBuilder;
 use Carbon\Carbon;
 use Ri\EmsModule\EmployeeAttendance\EmployeeAttendanceModel;
 
+/**
+ * To register this chart, add the following line
+ * in your service provider when module is installed
+ * 
+ * <code>
+ *    app()->make(ChartProvider::class)->register(DailyAttendance::class);
+ * </code>
+ */
 class ThisWeekAttendance extends ChartBuilder
 {
 	protected $title = 'Daily Attendance';
