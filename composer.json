@@ -1,0 +1,13 @@
+{
+    "name": "anomaly/chart_widget-extension",
+    "type": "streams-addon",
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\ChartWidgetExtension\\": "src/"
+        }
+    },
+    "require": {
+        "anomaly/text-field_type": "~2.1.0",
+    	"anomaly/relationship-field_type": "~2.2.0"
+    }
+}

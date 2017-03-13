@@ -1,0 +1,17 @@
+{% if widget.data.error %}
+{{ widget.data.error }}
+
+{% else %}
+{{ asset_add('scripts.js', '//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js') }}
+{{ asset_add('scripts.js', '//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js') }}
+
+{{ asset_add('styles.css', '//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css') }}
+
+<div id="{{ md5(widget.id) }}" style="height: 250px;"></div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	new Morris.Line({{ json_encode(widget.data.options) | raw }});
+});
+</script>
+{% endif %}
