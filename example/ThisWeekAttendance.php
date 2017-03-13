@@ -11,12 +11,12 @@ use Ri\EmsModule\EmployeeAttendance\EmployeeAttendanceModel;
  * in your service provider when module is installed
  * 
  * <code>
- *    app()->make(ChartProvider::class)->register(DailyAttendance::class);
+ *    app()->make(ChartProvider::class)->register(ThisWeekAttendance::class);
  * </code>
  */
 class ThisWeekAttendance extends ChartBuilder
 {
-	protected $title = 'Daily Attendance';
+	protected $title = 'This Week Attendance';
 
 	protected $type = 'line';
 
