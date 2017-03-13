@@ -6,8 +6,21 @@
             "Anomaly\\ChartWidgetExtension\\": "src/"
         }
     },
+    "authors": [
+        {
+            "name": "PyroCMS, Inc.",
+            "email": "support@pyrocms.com"
+        },
+        {
+            "name": "Ryan Thompson",
+            "email": "ryan@pyrocms.com"
+        },
+        {
+            "name": "Daksh Mehta",
+            "email": "dakshhmehta@gmail.com"
+        }
+    ],
     "require": {
-        "anomaly/text-field_type": "~2.1.0",
-    	"anomaly/relationship-field_type": "~2.2.0"
+    	"anomaly/select-field_type": "~2.2.0"
     }
 }
