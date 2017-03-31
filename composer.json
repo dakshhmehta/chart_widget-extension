@@ -22,5 +22,6 @@
     ],
     "require": {
     	"anomaly/select-field_type": "~2.2.0"
-    }
+    },
+"minimum-stability": "stable"
 }
