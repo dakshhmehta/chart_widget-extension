@@ -7,7 +7,7 @@ return [
 		'config' => [
 			'mode' => 'search',
 			'options' => [],
-			'handler' => 'Anomaly\ChartWidgetExtension\RegisteredChartsOptions',
+			'handler' => 'Ri\ChartWidgetExtension\RegisteredChartsOptions',
 		],
 	],
 ];

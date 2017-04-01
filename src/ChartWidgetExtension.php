@@ -1,4 +1,4 @@
-<?php namespace Anomaly\ChartWidgetExtension;
+<?php namespace Ri\ChartWidgetExtension;
 
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
 use Anomaly\DashboardModule\Widget\Extension\WidgetExtension;

@@ -2,7 +2,7 @@
 
 namespace Ri\EmsModule\Chart;
 
-use Anomaly\ChartWidgetExtension\ChartBuilder;
+use Ri\ChartWidgetExtension\ChartBuilder;
 use Carbon\Carbon;
 use Ri\EmsModule\EmployeeAttendance\EmployeeAttendanceModel;
 

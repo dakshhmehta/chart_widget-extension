@@ -1,4 +1,4 @@
-<?php namespace Anomaly\ChartWidgetExtension;
+<?php namespace Ri\ChartWidgetExtension;
 
 use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
 

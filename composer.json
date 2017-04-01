@@ -1,9 +1,9 @@
 {
-    "name": "anomaly/chart_widget-extension",
+    "name": "ri/chart_widget-extension",
     "type": "streams-addon",
     "autoload": {
         "psr-4": {
-            "Anomaly\\ChartWidgetExtension\\": "src/"
+            "Ri\\ChartWidgetExtension\\": "src/"
         }
     },
     "authors": [

@@ -1,6 +1,6 @@
 <?php
 
-namespace Anomaly\ChartWidgetExtension;
+namespace Ri\ChartWidgetExtension;
 
 use Anomaly\ConfigurationModule\Configuration\ConfigurationRepository;
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;

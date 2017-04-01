@@ -1,8 +1,8 @@
 <?php
 
-namespace Anomaly\ChartWidgetExtension;
+namespace Ri\ChartWidgetExtension;
 
-use Anomaly\ChartWidgetExtension\ChartProvider;
+use Ri\ChartWidgetExtension\ChartProvider;
 
 class RegisteredChartsOptions
 {

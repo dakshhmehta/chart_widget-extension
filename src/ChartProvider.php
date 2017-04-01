@@ -1,6 +1,6 @@
 <?php
 
-namespace Anomaly\ChartWidgetExtension;
+namespace Ri\ChartWidgetExtension;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 
