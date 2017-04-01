@@ -1,26 +1,12 @@
 {
     "name": "ri/chart_widget-extension",
     "type": "streams-addon",
+    "require": {
+        "anomaly/select-field_type": "~2.2.0"
+    },
     "autoload": {
         "psr-4": {
             "Ri\\ChartWidgetExtension\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "PyroCMS, Inc.",
-            "email": "support@pyrocms.com"
-        },
-        {
-            "name": "Ryan Thompson",
-            "email": "ryan@pyrocms.com"
-        },
-        {
-            "name": "Daksh Mehta",
-            "email": "dakshhmehta@gmail.com"
-        }
-    ],
-    "require": {
-    	"anomaly/select-field_type": "~2.2.0"
     }
 }
